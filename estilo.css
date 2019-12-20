@@ -1,0 +1,81 @@
+body {background-color: rgb(255, 228, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#wrapper {width:90%;
+        margin:auto;
+        background-color: silver;}
+
+header {background-image: url("imagenes/header.jpg");
+    background-size:cover;
+    height: 220px;
+    background-position: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/******************************* nav *************************************/
+
+nav {background-color: rgb(14, 132, 186)
+    }
+
+nav ul {margin:0;
+    padding: 1%;
+    list-style-type: none;
+    text-align: left;
+ 
+    }
+
+nav ul li {display: inline;
+        padding: 2%;
+    
+    }
+
+nav ul li a {text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {color:rgb(236, 173, 185) ;}
+ /************************* main ************************************/
+main h1 {margin-top: 3%;
+    color:rgb(233, 109, 130);
+    text-align: center;
+    padding-bottom: 1%;}
+main p {text-align: justify;
+        padding: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-indent: 7vh;}
+
+main img {width: 20%;
+        margin: 2%;
+        border-radius:  22% ;
+        box-shadow: 15px 15px 40px;}
+
+main img:hover {filter:opacity(0.5)}
+
+main ul  {padding-left: 6%;}
+
+
+
+/****************** footer *********************/
+
+footer {background-color: rgb(14, 132, 186);
+        padding: 0.5%;
+}
+
+footer p {text-align: center;
+            color: white;}
+
+
+/********************************** medias querys ********************************/
+
+@media only screen and (max-width:900px){
+    main img {width: 40%;
+                margin: 4%;}}
+
+@media only screen and (max-width:600px){
+main img {width: 60%;
+        margin: 10%;}
